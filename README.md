@@ -12,7 +12,7 @@ Use the following postman collection to explore the sample requests ```https://w
 
 ## Setting Up
 
-- Clone the repo ```git clone https://vozille@bitbucket.org/vozille/simplehttpserver.git``` or unzip the zip file provided
+- Clone the repo ```https://bitbucket.org/vozille/simplehttpserver``` or unzip the zip file provided
 - cd into the ```simplehttpserver``` folder
 - Run ```docker-compose up --build```
 - The application will be live on ```http://localhost:8000```

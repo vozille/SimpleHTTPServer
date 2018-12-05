@@ -5,7 +5,7 @@ import requests
 class TestWebServer(TestCase):
 
     def __intialise(self):
-        self.host = "13.233.132.214"
+        self.host = "13.233.132.214" # use the web server deployed in production
         self.port = 8000
         self.resource_id = "job"
         self.job_name = "test"
