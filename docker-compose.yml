@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web_server:
+    ports:
+      - "8000:8000"
+    build: .
+    restart: always

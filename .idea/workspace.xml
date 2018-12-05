@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6477bbe7-c5ae-47ac-9033-487291a3fa77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ErrorModels/ErrorModels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Webserver/SimpleHTTPServerTests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Webserver/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webserver/RequestModels.py" beforeDir="false" afterPath="$PROJECT_DIR$/Webserver/RequestModels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModels/SampleData.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataModels/SampleData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ErrorModels/ErrorModels.py" beforeDir="false" afterPath="$PROJECT_DIR$/ErrorModels/ErrorModels.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Webserver/ResponseHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Webserver/ResponseHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webserver/WebServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Webserver/WebServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webserver/SimpleHTTPServerTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTTPServerTests/WebServerTests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webserver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +20,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Webserver/ResponseHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#1#45#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTTPServerTests/WebServerTests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,46 +49,46 @@
         <entry file="file://$PROJECT_DIR$/Webserver/RequestModels.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErrorModels/ErrorModels.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ErrorModels/ErrorModels.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataModels/SampleData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Webserver/WebServer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="170">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,19 +118,22 @@
         <option value="$PROJECT_DIR$/Webserver/ResponseHeaders.py" />
         <option value="$PROJECT_DIR$/Webserver/__init__.py" />
         <option value="$PROJECT_DIR$/Webserver/ResponseModels.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/DataModels/SampleData.py" />
         <option value="$PROJECT_DIR$/Webserver/SimpleHTTPServerTests.py" />
-        <option value="$PROJECT_DIR$/Webserver/WebServer.py" />
         <option value="$PROJECT_DIR$/Webserver/RequestModels.py" />
-        <option value="$PROJECT_DIR$/Webserver/ResponseHandler.py" />
+        <option value="$PROJECT_DIR$/DataModels/SampleData.py" />
         <option value="$PROJECT_DIR$/ErrorModels/ErrorModels.py" />
+        <option value="$PROJECT_DIR$/Webserver/ResponseHandler.py" />
+        <option value="$PROJECT_DIR$/HTTPServerTests/WebServerTests.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/Webserver/WebServer.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -142,6 +158,16 @@
             <path>
               <item name="HttpServerTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="HttpServerTask" type="462c0819:PsiDirectoryNode" />
+              <item name="ErrorModels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HttpServerTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HttpServerTask" type="462c0819:PsiDirectoryNode" />
+              <item name="HTTPServerTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HttpServerTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HttpServerTask" type="462c0819:PsiDirectoryNode" />
               <item name="Webserver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -156,6 +182,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Code\Personal\HttpServerTask\HTTPServerTests" />
       <recent name="C:\Code\Personal\HttpServerTask\Webserver" />
     </key>
   </component>
@@ -171,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HttpServerTask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,9 +220,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for WebServerTests.TestWebServer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HttpServerTask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HTTPServerTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;WebServerTests.TestWebServer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Unittests for WebServerTests.TestWebServer" />
       </list>
     </recent_temporary>
   </component>
@@ -212,17 +254,45 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 50m 07s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 50m 36s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 51m 52s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 52m 41s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 53m 29s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 54m 06s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 54m 33s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 55m 24s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 09h 17m 17s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 09h 20m 09s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21083939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
@@ -230,6 +300,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,64 +385,90 @@ Date December 04 2018 - 14:59:40
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Webserver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Webserver/__init__.py" />
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webserver/SimpleHTTPServerTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webserver/WebServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataModels/SampleData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webserver/ResponseHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-          <folding>
-            <element signature="e#1#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Webserver/RequestModels.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataModels/SampleData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webserver/WebServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ErrorModels/ErrorModels.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTPServerTests/WebServerTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webserver/ResponseHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
