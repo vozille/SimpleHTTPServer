@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6477bbe7-c5ae-47ac-9033-487291a3fa77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataModels/SampleData.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataModels/SampleData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ErrorModels/ErrorModels.py" beforeDir="false" afterPath="$PROJECT_DIR$/ErrorModels/ErrorModels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webserver/ResponseHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Webserver/ResponseHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webserver/SimpleHTTPServerTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTTPServerTests/WebServerTests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webserver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTTPServerTests/WebServerTests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTTPServerTests/WebServerTests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +25,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTTPServerTests/WebServerTests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+            <state relative-caret-position="102">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -81,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -123,11 +127,12 @@
         <option value="$PROJECT_DIR$/DataModels/SampleData.py" />
         <option value="$PROJECT_DIR$/ErrorModels/ErrorModels.py" />
         <option value="$PROJECT_DIR$/Webserver/ResponseHandler.py" />
-        <option value="$PROJECT_DIR$/HTTPServerTests/WebServerTests.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/Webserver/WebServer.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/HTTPServerTests/WebServerTests.py" />
       </list>
     </option>
   </component>
@@ -198,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.Unittests for WebServerTests.TestWebServer">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HttpServerTask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,10 +239,40 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for WebServerTests.TestWebServer.test_start" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HttpServerTask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HTTPServerTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;WebServerTests.TestWebServer.test_start&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in WebServerTests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HttpServerTask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HTTPServerTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/HTTPServerTests/WebServerTests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Unittests for WebServerTests.TestWebServer" />
+        <item itemvalue="Python tests.Unittests in WebServerTests.py" />
+        <item itemvalue="Python tests.Unittests for WebServerTests.TestWebServer.test_start" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -255,34 +290,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 50m 07s.xml">
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 10h 39m 44s.xml">
       <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 50m 36s.xml">
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 10h 39m 52s.xml">
       <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 51m 52s.xml">
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer_test_start - 2018.12.05 at 10h 41m 25s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer.test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer_test_start - 2018.12.05 at 10h 41m 42s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer.test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer_test_start - 2018.12.05 at 10h 42m 08s.xml">
+      <configuration name="Unittests for WebServerTests.TestWebServer.test_start" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_WebServerTests_py - 2018.12.05 at 11h 17m 03s.xml">
+      <configuration name="Unittests in WebServerTests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 11h 20m 56s.xml">
       <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 52m 41s.xml">
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 11h 21m 31s.xml">
       <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 53m 29s.xml">
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 11h 23m 07s.xml">
       <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 54m 06s.xml">
-      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 54m 33s.xml">
-      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 08h 55m 24s.xml">
-      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 09h 17m 17s.xml">
-      <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 09h 20m 09s.xml">
+    <history-entry file="Unittests_for_WebServerTests_TestWebServer - 2018.12.05 at 11h 23m 41s.xml">
       <configuration name="Unittests for WebServerTests.TestWebServer" configurationId="tests" />
     </history-entry>
   </component>
@@ -290,12 +325,12 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21083939" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21083939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,29 +420,7 @@ Date December 04 2018 - 14:59:40
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Webserver/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webserver/RequestModels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataModels/SampleData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -442,16 +455,6 @@ Date December 04 2018 - 14:59:40
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTTPServerTests/WebServerTests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Webserver/ResponseHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -464,10 +467,51 @@ Date December 04 2018 - 14:59:40
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="691" selection-start-line="691" selection-end-line="691" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webserver/RequestModels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTPServerTests/WebServerTests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

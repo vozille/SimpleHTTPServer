@@ -5,11 +5,11 @@ import requests
 class TestWebServer(TestCase):
 
     def __intialise(self):
-        self.host = "127.0.0.1"
+        self.host = "13.233.132.214"
         self.port = 8000
         self.resource_id = "job"
         self.job_name = "test"
-        self.url = " http://{0}:{1}/{2}/".format(self.host, self.port, self.resource_id)
+        self.url = " http://{0}:{1}/{2}".format(self.host, self.port, self.resource_id)
 
     def test_start(self):
         self.__intialise()
@@ -42,17 +42,16 @@ class TestWebServer(TestCase):
 
     def __test_post_data(self):
         new_job_name = "test_2"
-        url = self.url + "/<0>/<1>".format(self.job_id, new_job_name)
-        headers = {"Content-Type": "application/json"}
-        response = requests.post(url, headers=headers)
+        url = self.url + "/<{0}>/<{1}>".format(self.job_id, new_job_name)
+        response = requests.post(url)
         self.assertTrue(response.status_code == 200)
         response = response.json()
         self.assertTrue(response['Result'])
 
         # test where job id does not exist
 
-        url = self.url + "/<0>/<1>".format(1, new_job_name)
-        response = requests.post(url, headers=headers)
+        url = self.url + "/<{0}>/<{1}>".format(1, new_job_name)
+        response = requests.post(url)
         self.assertTrue(response.status_code == 404)
 
     def __test_delete_data(self):
